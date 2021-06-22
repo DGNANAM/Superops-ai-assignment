@@ -1,12 +1,15 @@
 # Instructions for running:
 
-1.git clone
+1.git clone https://github.com/DGNANAM/Superops-ai-assignment.git
+2.npm install
+3.npm start
+4.use postman or any other tool to check API
+
 
 # Movie-Ticket-Booking-API
 
 Backend API's for movie ticket booking system using Node js, Express and MongoDB.
 
-BASE_URL: https://shrouded-scrubland-75633.herokuapp.com/
 
 **1. API to accept details of a movie screen.**
 
@@ -43,6 +46,7 @@ Response body (example):
 Request method: GET
 
 Request URI: http://localhost:9090/screens/{screen‑name}/seats?numSeats={x}&choice= {seat‑row‑and‑number}
+sample : http://localhost:9090/screens/inboxnew/seats?numSeats=1&choice=A4
 
 Response body (example):
 
